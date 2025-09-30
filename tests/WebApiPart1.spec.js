@@ -5,13 +5,13 @@ const orderPayLoad = {orders:[{country:"Cuba",productOrderedId:"67a8dde5c0d3e662
  
  
 let response;
-test.beforeAll( async()=>
-{
-   const apiContext = await request.newContext();
-   const apiUtils = new APiUtils(apiContext,loginPayLoad);
-   response =  await apiUtils.createOrder(orderPayLoad);
+// test.beforeAll( async()=>
+// {
+//    const apiContext = await request.newContext();
+//    const apiUtils = new APiUtils(apiContext,loginPayLoad);
+//    response =  await apiUtils.createOrder(orderPayLoad);
  
-})
+// })
  
  
 //create order is success

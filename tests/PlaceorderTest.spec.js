@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 
 
-test.only('@Webst Client App login', async ({ page }) => {
+test('@Webst Client App login', async ({ page }) => {
     //js file- Login js, DashboardPage
     const email = "madangowda8095@gmail.com";
     const productName = 'ZARA COAT 3';
